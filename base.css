@@ -1,0 +1,618 @@
+
+.mainBody{
+	margin: 0px;
+}
+
+.container {
+	width: 100%;
+    height: 500px;
+    margin-left: 5px;
+    margin-right: 5px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+	-webkit-overflow-scrolling: touch;
+}
+
+.container .header{
+margin-top: 10px;
+margin-left: 0px;
+}
+
+.container .header img.crossiconsize{
+width: 24px; 
+height: 24px;
+}
+
+.container .header a.restorepurchase{
+margin-top: 6px;	
+margin-right: 10px;
+color: #2A99D0;
+text-decoration: none;
+font-size: 13px;
+font-family: "AdobeClean-SemiLight","Myriad","Myriad Pro",arial;
+float: right;
+}
+
+.container .header2{
+margin: 10px 5px;
+}
+
+.container .header2 p.premium{
+color: white;
+font-size: 20px;
+font-family: "AdobeClean-Bold","Myriad","Myriad Pro",arial;
+margin-left: 6px;
+text-size-adjust: auto;
+font-weight: bold;
+}
+
+.container .header2 div{
+	display: flex;
+    justify-content: center;
+    align-content: center;
+	align-items: center;
+}
+
+.container .header2 img.crossiconsize{
+	width: 24px !important; 
+	height: 24px !important;
+	position: absolute;
+    top: 20px;
+	left: 7px;
+}
+
+.container .header2 img.appiconsize{
+width: 48px; 
+height: 48px;
+}
+
+.container .section_divider {
+margin-top: 10px;
+margin-left: 5px;
+margin-right: 20px;
+width: auto;
+border-top-style: hidden;
+border-right-style: hidden;
+border-bottom: 0.5px solid #333333;	
+}
+
+.container .firstthreedays{
+margin-top: 8px;
+margin-left: 5px;
+color: gray;
+font-size: 13px;
+font-family: "AdobeClean-Bold","Myriad","Myriad Pro",arial;
+font-weight: bold;
+letter-spacing: 0.5px;
+}
+
+.container .discountBanner{
+	position: relative;
+	display: none;
+	width: 93%;
+	margin-top: 23px;
+	margin-left: 10px;
+    margin-right: 5px;
+	height: auto;
+	background-image: url(resources/banner.png);
+	background-repeat: round;
+	padding-top: 10px;
+}
+
+.container .discountBanner .discountBannerCopyTopLabelDiv{
+	text-align: center;
+	color: #FFBF80;
+}
+
+.container .discountBanner .discountBannerCopyTopLabelDiv .discountBannerCopyTopLabel{
+	font: normal normal bold 12px/10px Adobe Clean;
+	letter-spacing: 1.65px;
+	font-family: "AdobeClean-Bold","Helvetica-Bold","Helvetica-Cyrillic","Helvetica","Helvetica Neue", sans-serif;
+}
+
+.container .discountBanner .discountBannerCopy{
+	display: grid;
+}
+
+.container .discountBanner .discountBannerCopy .discountPercentageLabel{
+	color: #FFFFFF;
+	text-align: center;
+	font: normal normal bold 60px/60px Adobe Clean;
+	letter-spacing: -3.1px;
+	font-family: "AdobeClean-Bold","Helvetica-Bold","Helvetica-Cyrillic","Helvetica","Helvetica Neue", sans-serif;
+	margin-top: 10px;
+}
+
+.container .discountBanner .discountBannerCopy .discountBannerCopyBottomRect{
+	background: #FF6A00 0% 0% no-repeat padding-box;
+	border-radius: 3px;
+	padding: 2px 6px;
+	margin: 0 auto;
+	max-width: 220px;
+	text-align: center;
+}
+
+.container .discountBanner .discountBannerCopy .discountBannerCopyBottomRect .discountBannerCopyBottomLabel{
+	font-family: "AdobeClean-Bold","Helvetica-Bold","Helvetica-Cyrillic","Helvetica","Helvetica Neue", sans-serif;
+	font-size: 11px;
+	color: #ffffff;
+	letter-spacing: 1px;
+}
+
+.container .editorThemesText{
+margin-top: 23px;
+margin-left: 5px;
+color: white;
+font-size: 18px;
+font-family: "AdobeClean-Bold","Myriad","Myriad Pro",arial;
+font-weight: bold;
+position: relative;
+}
+
+.container .editorThemesText span.editorLabelStyle{
+margin-left: 10px;
+font-size: 10px;
+background-color: #333333;
+padding-left: 10px;
+padding-right: 10px;
+padding-top: 6px;
+padding-bottom: 6px;
+border-radius: 15px;
+position: absolute;
+color: #FFFFFF;
+letter-spacing: 1.1px;
+font-family: "AdobeClean-Regular","Myriad","Myriad Pro",arial;
+}
+
+
+.container .placeHolderText{
+margin-top: 8px;
+margin-left: 5px;
+color: gray;
+font-size: 14px;
+font-family: "AdobeClean-SemiLight","Myriad","Myriad Pro",arial;
+}
+
+.container .display_multiple_horizonal {
+overflow-x: scroll;
+overflow-y: hidden;
+white-space: nowrap;
+margin-top: 14px;
+width: 98%;
+-webkit-overflow-scrolling: touch;
+}
+
+.container .display_multiple_horizonal .card{
+display: inline-block;
+}
+
+.container .display_multiple_horizonal .card img.bannerSize{
+width: 150%; 
+height: 150%; 
+border-radius:3px;
+}
+
+.container .display_multiple_horizonal .card img.bannerSize2{
+width: 250%; 
+height: 250%; 
+border-radius:3px;
+}
+
+
+.container .selectiveEditing{
+width: 98%;
+height: 98%;
+}
+
+.container .lastText{
+margin-top: 15px;
+color: #707070;
+font-size: 14px;
+font-family: "AdobeClean-Regular","Myriad","Myriad Pro",arial;
+
+
+}
+
+.section_divider_full {
+margin-top: 0px;
+width: auto;
+border-top-style: hidden;
+border-right-style: hidden;
+border-bottom: 1px solid #333333;	
+}
+
+.icv__circle{
+width: 40px !important;
+height: 40px !important;
+}
+
+.image-compare {
+	width: 98%;
+}
+
+.container1 {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: auto;
+	background-color:#1E1E1E;
+}
+
+.container1 .full_border {
+	margin-top: 8px;
+	margin-right: auto;
+	margin-left: auto;
+  	width: 80%;
+  	border: 2px solid #393939;
+  	padding-top: 12px;	
+  	padding-bottom: 12px;
+  	background-color: #1A1A1A;
+  	border-radius: 5px;
+  	padding-left: 5px;
+  	padding-right: 39px;
+  	display: none;
+  	position: relative;
+}
+
+.container1 .unlockPremiumText{
+	text-align: center;
+	font-size: 13px;
+	font-family: "AdobeClean-Regular","Myriad","Myriad Pro",arial;
+	color: #C8C8C8;
+	margin-top: 8px;
+	display: none;
+}
+
+.container1 .yearlySingleProduct{
+	text-align: center;
+	font-size: 15px;
+	font-family: "AdobeClean-Regular","Myriad","Myriad Pro",arial;
+	color: #EFEFEF;
+	margin-top: 15px;
+	display: none;
+	margin-bottom: 15px;
+}
+
+.container1 .monthlySingleProduct{
+	text-align: center;
+	font-size: 15px;
+	font-family: "AdobeClean-Bold","Myriad","Myriad Pro",arial;
+	color: #EFEFEF;
+	margin-top: 15px;
+	display: none;
+	margin-bottom: 15px;
+}
+
+
+.container1 .full_border .radioImage{
+	width:18px;
+	height: 18px;
+}
+
+.container1 .full_border .discountedPercentage{
+	font-size: 14px;
+	font-family: "AdobeClean-Regular","Myriad","Myriad Pro",arial;
+	color: #2A99D0;
+}
+
+.container1 .full_border .yearlyAmount{
+	font-size: 14px;
+	float:right;
+	font-family: "Helvetica-Cyrillic", "Helvetica", "Helvetica Neue", sans-serif;
+	text-decoration: none;
+	margin-top: 3px;
+	color: #C8C8C8;
+	width: 42px;
+	text-align: right;
+	display: inline-flex;
+	direction: rtl;
+	position: absolute;
+	right: 5px;
+	padding-right: 12px;
+}
+.container1 .full_border .inlineDiv .productLabelStyle{
+	font-family: "Helvetica-Cyrillic", "Helvetica", "Helvetica Neue", sans-serif;
+}
+
+.inlineDiv{
+	display: inline-block;
+}
+
+.container1 .full_border2 {
+	margin-top: 8px;
+	margin-right: auto;
+	margin-left: auto;
+  	width: 80%;
+  	border: 2px solid #393939;
+  	padding-top: 18px;	
+  	padding-bottom: 18px;
+  	padding-left: 5px;
+  	padding-right: 39px;
+  	border-style: none;
+  	border-radius: 5px;
+  	display: none;
+  	position: relative;
+}
+
+.container1 .full_border2 .radioImage2{
+	width:18px;
+	height: 18px;
+}
+
+.container1 .full_border2 .inlineDiv .productLabelStyle{
+	font-family: "Helvetica-Cyrillic", "Helvetica", "Helvetica Neue", sans-serif;
+}
+
+.container1 .disclaimer{
+	color: #FFFFFF;
+	text-align: center;
+	margin-top: 9px;
+	font-size: 13px;
+	font-family: "AdobeClean-Regular","Myriad","Myriad Pro",arial;
+	display: block;
+	letter-spacing: 0.33px;
+}
+
+.productLabelStyle{
+	color: #C8C8C8;
+    font-size: 15px;
+    font-family: "AdobeClean-Bold","Myriad","Myriad Pro",arial;
+    vertical-align: top;
+}
+
+.button-container{
+margin-top: 10px;
+text-align: center;
+}
+
+.blue {
+background-color: #2A99D0;
+color: #FFFFFF;
+}
+
+.button {
+/*max-width: 200px;*/
+border-radius: 30px;
+font-family: "AdobeClean-Bold","Myriad","Myriad Pro",arial;
+font-size: 17px;
+border-bottom-width: inherit;
+border-top-width: inherit;
+border-right-width: inherit;
+border-left-width: inherit;
+width: 90%;
+height: 40px;
+padding: 10px;
+}
+
+.container2{
+margin-left: 5px;
+margin-right: 5px;
+margin-bottom: 5px;
+margin-top: 5px;
+overflow-y: scroll;
+overflow-x: hidden;
+-webkit-overflow-scrolling: touch;
+}
+
+.container2 .paymentText{
+margin-top: 10px;
+font-family: "AdobeClean-Regular","Myriad","Myriad Pro",arial;
+font-size: 13px;
+color: #707070;
+line-height: 13px;
+}
+
+.container2 .footer{
+margin-top: 10px;
+font-family: "AdobeClean-Regular","Myriad","Myriad Pro",arial;
+font-size: 11px;
+color: #767676;
+text-align: center;
+margin-bottom: 5px;
+}
+
+.container2 .footer a.footerSize{
+font-size: 11px;
+color: #767676;
+text-decoration: underline;
+}
+
+.container .replaceEyesAnimation .top{
+animation-name: fade;
+animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+animation-duration: 2s;
+animation-direction: alternate;
+}
+
+.scrollGifContainer {
+	position: fixed;
+	width: 100%;
+	bottom: 100px;
+	text-align: center;
+	background: transparent;
+}
+
+.bottomIndicator {
+	width: 44px;
+	height: 40px;
+	opacity: 0.7;
+}
+
+#offerTerms {
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #ffffff;
+	font-size: 12px;
+	font-family: "adobe-clean";
+	text-decoration: underline;
+	padding: 10px 0px 8px 0px;
+}
+
+@keyframes fade {
+0% {
+opacity: 1;
+}
+25% {
+opacity: 1;
+}
+75% {
+opacity: 0;
+}
+100% {
+opacity: 0;
+}
+}
+
+
+/* iPhone Se portrait */
+@media only screen and (device-width:320px) and (orientation:portrait) {
+.container .header2{margin-top: 10px;}
+.container .section_divider {margin-top: 5px;}
+.container .header img.crossiconsize{width: 18px; height: 18px;}
+.container .header2 b.premium{font-size: 18px;}
+.container .header2 img.appiconsize{width: 40px; height: 40px;}
+.container .firstthreedays{font-size: 11px;}
+.container .editorThemesText{font-size: 15px;}
+.container .placeHolderText{font-size: 11px;}
+.container {height: 312px;}
+.button {height:40px;border-radius: 23px;font-size: 15px;}
+.container2 .paymentText{margin-top: 5px; font-size: 8px;line-height: 10px;}
+.container .editorThemesText span.editorLabelStyle{padding-bottom: 5px; padding-top: 5px;}
+.productLabelStyle{font-size: 14px;width:120px;}
+.container1 .full_border .discountedPercentage{font-size: 14px;}
+#creativeCameraEdits {display: none;}
+#captureText{display: none;}
+#creativeCameraEditsAbout {display: none;}
+#captureCard{display: none;}
+#grabcutMasking{display: none;}
+#grabcutMaskingAbout{display: none;}
+#layersIncompositionText{display: none;}
+#layersIncompositionAbout{display: none;}
+#composeText1{display: none;}
+#composeText2{display: none;}
+#grabCutVideo{display: none;}
+#layersImage{display: none;}
+}
+
+
+/* iPhone 6/7/8 portrait */
+@media only screen and (device-width:375px) and (device-height:667px) and (orientation:portrait) {
+.container .header img.crossiconsize{width: 20px; height: 20px;}
+.container {height: 402px;}
+.container2 .paymentText{margin-top: 8px; font-size: 9px;line-height: 11px;}
+.button {height:48px;border-radius: 25px;font-size: 17px;}
+.container .discountBanner .discountBannerCopy .discountBannerCopyTopDiv .discountBannerCopyPercentageRect .discountBannerCopyPercentageLabel{font: italic normal 900 33px/37px Adobe Clean; font-family: "Adobe Clean","Myriad","Myriad Pro",arial;}
+}
+
+/* iPhone 6/7/8 plus portrait */
+@media only screen and (device-width:414px) and (device-height:736px) and (orientation:portrait) {
+.container .header img.crossiconsize{width: 20px; height: 20px;}
+.container {height: 470px;}
+.container2 .paymentText{margin-top: 9px; font-size: 10px;line-height: 12px;}
+.button {height:48px;border-radius: 25px;font-size: 18px;}
+
+
+}
+
+/* iPhone X portrait */
+@media only screen and (device-width:375px) and (device-height:812px) and (orientation:portrait) {
+.container .header img.crossiconsize{width: 19px; height: 19px;}
+.container {height: 490px;}
+.container2{margin-top: 0px;}
+.container2 .paymentText{margin-top: 10px; font-size: 11px;line-height: 12px;}
+.button {height:48px;border-radius: 25px;font-size: 17px;}
+.container2 .footer{margin-bottom: 13px;}
+.container .discountBanner .discountBannerCopy .discountBannerCopyTopDiv .discountBannerCopyPercentageRect{width: 28%;height: 80%;}
+}
+
+/* iPhone XS Max/ XR portrait */
+@media only screen and (device-width:414px) and (device-height:896px) and (orientation:portrait) {
+.container .header img.crossiconsize{width: 19px; height: 19px;}
+.container {height: 570px;}
+.container2 .paymentText{margin-top: 10px; font-size: 11px;}
+.button {height:48px;border-radius: 25px;font-size: 19px;}
+.container2 .footer{margin-bottom: 17px;}
+}
+
+/* Tablets landscape */
+@media only screen and (device-width:1024px) and (device-height:768px) and (orientation:landscape) {
+.container .header img.crossiconsize{width: 25px; height: 25px;}
+.container .header a.restorepurchase{font-size: 20px;}
+.container .editorThemesText{font-size: 22px;}
+.container .placeHolderText{font-size: 19px;}
+/*.container .selectiveEditing{width: 250px;height: 180px;}*/
+.container {height: 560px;}
+.button {width:65%;height:50px;border-radius: 45px;font-size: 18px;}
+.container2 .footer{font-size: 15px;}
+.container2 .footer a.footerSize{font-size: 15px;}
+.container .lastText{font-size: 16px;}
+.container .editorThemesText span.editorLabelStyle{padding-bottom: 6px; padding-top: 6px; font-size: 10px}
+/*.container .display_multiple_horizonal .card img.bannerSize{width: 100%; height: 100%;}
+.container .display_multiple_horizonal .card img.bannerSize2{width: 130%; height: 130%;}*/ 
+.container1 .full_border .radioImage{width:24px;height: 24px;}
+.container1 .full_border2 .radioImage2{width:24px;height: 24px;}
+}
+
+/* Tablets portrait */
+@media only screen and (device-width:768px) and (device-height:1024px) and (orientation:portrait) {
+.container .header img.crossiconsize{width: 30px; height: 30px;}
+.container .header a.restorepurchase{font-size: 20px;}
+.container .firstthreedays{font-size: 18px;}
+.container .editorThemesText{font-size: 22px;}
+.container .placeHolderText{font-size: 19px;}
+/*.container .selectiveEditing{width: 250px;height: 180px;}*/
+.container {height: 760px;}
+.button {width:75%;height:50px;border-radius: 45px;font-size: 20px;}
+.container2 .paymentText{margin-top: 10px; font-size: 16px;}
+.footer{font-size: 15px;}
+.footer a.footerSize{font-size: 15px;}
+.container .lastText{font-size: 16px;}
+.container .editorThemesText span.editorLabelStyle{padding-bottom: 6px; padding-top: 6px; font-size: 10px}
+/*.container .display_multiple_horizonal .card img.bannerSize{width: 100%; height: 100%;}
+.container .display_multiple_horizonal .card img.bannerSize2{width: 150%; height: 150%;} */
+.container1 .full_border .radioImage{width:24px;height: 24px;}
+.container1 .full_border2 .radioImage2{width:24px;height: 24px;}
+}
+
+/* ipad pro Tablets portrait */
+@media only screen and (min-width:1024px) and (orientation:portrait) {
+.container .header img.crossiconsize{width: 30px; height: 30px;}
+.container .header a.restorepurchase{font-size: 25px;}
+.container .header2 img.appiconsize{width: 50px; height: 50px;}
+.container .header2 b.premium{font-size: 25px;}
+.container .firstthreedays{font-size: 23px;}
+.container .editorThemesText{font-size: 28px;}
+.container .placeHolderText{font-size: 25px;}
+/*.container .selectiveEditing{width: 250px;height: 180px;}*/
+.container {height: 1050px;}
+.button {width:85%;height:50px;border-radius: 45px;font-size: 28px;}
+.container2 .paymentText{margin-top: 15px; font-size: 20px;}
+.footer{margin-top: 15px; font-size: 20px;}
+.footer a.footerSize{font-size: 20px;}
+.container .lastText{font-size: 25px;}
+.container .editorThemesText span.editorLabelStyle{padding-bottom: 8px; padding-top: 8px; font-size: 15px; padding-right: 15px; padding-left: 15px;}
+/*.container .display_multiple_horizonal .card img.bannerSize{width: 100%; height: 100%;}
+.container .display_multiple_horizonal .card img.bannerSize2{width: 150%; height: 150%;} */
+.container1 .full_border .radioImage{width:24px;height: 24px;}
+.container1 .full_border2 .radioImage2{width:24px;height: 24px;}
+}
+
+
+@media only screen and (min-width:1366px) and (orientation:landscape) {
+.container .header img.crossiconsize{width: 25px; height: 25px;}
+.container .header a.restorepurchase{font-size: 20px;}
+.container .firstthreedays{font-size: 18px;}
+.container .editorThemesText{font-size: 24px;}
+.container .placeHolderText{font-size: 19px;}
+/*.container .selectiveEditing{width: 250px;height: 180px;}*/
+.container {height: 800px;}
+.container2 .paymentText{margin-top: 10px; font-size: 12px;}
+.footer{margin-top: 15px; font-size: 15px;}
+.footer a.footerSize{font-size: 15px;}
+.button {width:75%;height:50px;border-radius: 45px;font-size: 23px;}
+.container .lastText{font-size: 20px;}
+.container .editorThemesText span.editorLabelStyle{padding-bottom: 8px; padding-top: 8px; font-size: 15px; padding-right: 15px; padding-left: 15px;}
+}
