@@ -1,0 +1,656 @@
+
+.mainBody{
+	margin: 0px;
+	
+	/*position: relative;*/
+	/*background-image: url("resources/iPad_Landscape.jpg");*/
+	background-color: black;
+}
+
+.mainIpadDiv{
+	/*margin:150px;*/
+	background-color: black;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+}
+.container {
+width: 92%;
+height: 500px;
+margin-left: 4%;
+margin-right: 4%;
+overflow-y: scroll;
+overflow-x: hidden;
+-webkit-overflow-scrolling: touch;
+}
+
+.container .header{
+margin-top: 10px;
+margin-left: 15px;
+}
+
+.container .header img.crossiconsize{
+width: 24px; 
+height: 24px;
+}
+
+.container .header a.restorepurchase{
+margin-top: 6px;	
+margin-right: 13px;
+color: #2A99D0;
+text-decoration: none;
+font-size: 13px;
+font-family: "AdobeClean-SemiLight","Myriad","Myriad Pro",arial;
+float: right;
+}
+
+.container .header2{
+margin-top: 20px;
+margin-left: 0px;
+}
+
+.container .header2 p.premium{
+	color: white;
+	font-size: 20px;
+	font-family: "AdobeClean-Bold","Myriad","Myriad Pro",arial;
+	margin-left: 6px;
+	text-size-adjust: auto;
+	font-weight: bold;
+}
+
+.container .header2 div{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+}
+
+.container .header2 img.crossiconsize{
+	width: 30px !important; 
+	height: 30px !important;
+	position: absolute;
+	top: 18px;
+	left: 7px;
+}
+
+.container .header2 img.appiconsize{
+width: 48px; 
+height: 48px;
+margin-left: 15px;
+}
+
+.container .section_divider {
+margin-top: 10px;
+margin-left: 20px;
+margin-right: 20px;
+width: auto;
+border-top-style: hidden;
+border-right-style: hidden;
+border-bottom: 0.5px solid #333333;	
+}
+
+.container .firstthreedays{
+margin-top: 8px;
+margin-left: 5px;
+color: gray;
+font-size: 13px;
+font-family: "AdobeClean-Bold","Myriad","Myriad Pro",arial;
+font-weight: bold;
+letter-spacing: 0.5px;
+}
+
+.container .discountBanner{
+	position: relative;
+	display: none;
+	margin-top: 23px;
+	height: auto;
+	background-image: url(resources/banner.png);
+	background-repeat: round;
+	padding-top: 10px;
+}
+
+.container .discountBanner .discountBannerCopyTopLabelDiv{
+	text-align: center;
+	color: #FFBF80;
+}
+
+.container .discountBanner .discountBannerCopyTopLabelDiv .discountBannerCopyTopLabel{
+	font: normal normal bold 12px/10px Adobe Clean;
+	letter-spacing: 1.65px;
+	font-family: "AdobeClean-Bold","Helvetica-Bold","Helvetica-Cyrillic","Helvetica","Helvetica Neue", sans-serif;
+}
+
+.container .discountBanner .discountBannerCopy{
+	display: grid;
+}
+
+.container .discountBanner .discountBannerCopy .discountPercentageLabel{
+	color: #FFFFFF;
+	text-align: center;
+	font: normal normal bold 60px/60px Adobe Clean;
+	letter-spacing: -3.1px;
+	font-family: "AdobeClean-Bold","Helvetica-Bold","Helvetica-Cyrillic","Helvetica","Helvetica Neue", sans-serif;
+	margin-top: 10px;
+}
+
+.container .discountBanner .discountBannerCopy .discountBannerCopyBottomRect{
+	background: #FF6A00 0% 0% no-repeat padding-box;
+	border-radius: 3px;
+	padding: 2px 6px;
+	margin: 0 auto;
+	max-width: 220px;
+	text-align: center;
+}
+
+.container .discountBanner .discountBannerCopy .discountBannerCopyBottomRect .discountBannerCopyBottomLabel{
+	font-family: "AdobeClean-Bold","Helvetica-Bold","Helvetica-Cyrillic","Helvetica","Helvetica Neue", sans-serif;
+	font-size: 11px;
+	color: #ffffff;
+	letter-spacing: 1px;
+}
+
+.container .editorThemesText{
+margin-top: 23px;
+margin-left: 10px;
+margin-right: 5px;
+color: white;
+font-size: 18px;
+font-family: "AdobeClean-Bold","Myriad","Myriad Pro",arial;
+font-weight: bold;
+position: relative;
+}
+
+.container .editorThemesText span.editorLabelStyle{
+margin-left: 10px;
+font-size: 10px;
+background-color: #333333;
+padding-left: 10px;
+padding-right: 10px;
+padding-top: 6px;
+padding-bottom: 6px;
+border-radius: 15px;
+position: absolute;
+color: #FFFFFF;
+letter-spacing: 1.1px;
+font-family: "AdobeClean-Regular","Myriad","Myriad Pro",arial;
+}
+
+
+.container .placeHolderText{
+margin-top: 8px;
+margin-left: 10px;
+color: gray;
+font-size: 14px;
+font-family: "AdobeClean-SemiLight","Myriad","Myriad Pro",arial;
+}
+
+.container .display_multiple_horizonal {
+overflow-x: scroll;
+overflow-y: hidden;
+white-space: nowrap;
+margin-top: 14px;
+/* margin-left: 10px; */
+width: 100%;
+-webkit-overflow-scrolling: touch;
+}
+
+.container .display_multiple_horizonal .card{
+display: inline-block;
+}
+
+.container .display_multiple_horizonal .card img.bannerSize{
+width: 150%; 
+height: 150%; 
+border-radius:3px;
+}
+
+.container .display_multiple_horizonal .card img.bannerSize2{
+width: 250%; 
+height: 250%; 
+border-radius:3px;
+}
+
+
+.container .selectiveEditing{
+width: 100%;
+height: 100%;
+/* margin-left: 10px; */
+}
+
+.container .lastText{
+margin-top: 15px;
+color: #707070;
+font-size: 14px;
+font-family: "AdobeClean-Regular","Myriad","Myriad Pro",arial;
+margin-bottom: 25px;
+
+
+}
+
+.section_divider_full {
+margin-top: 0px;
+width: auto;
+border-top-style: hidden;
+border-right-style: hidden;
+border-bottom: 1px solid #333333;	
+}
+
+.image-compare {
+	width: 100%;
+}
+
+.container1 {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: auto;
+	background-color:#1E1E1E;
+	z-index: 6;
+}
+
+.container1 .full_border {
+	margin-top: 8px;
+	/*margin-right: auto;*/
+	margin-left: 10px;
+  	width: 40%;
+  	border: 2px solid #393939;
+  	padding-top: 12px;	
+  	padding-bottom: 12px;
+  	background-color: #1A1A1A;
+  	border-radius: 5px;
+  	padding-left: 5px;
+  	padding-right: 39px;
+  	float: left;
+  	display: none;
+  	position: relative;
+}
+
+.container1 .unlockPremiumText{
+	text-align: center;
+	font-size: 13px;
+	font-family: "AdobeClean-Regular","Myriad","Myriad Pro",arial;
+	color: #C8C8C8;
+	margin-top: 8px;
+	display: none;
+}
+
+.container1 .yearlySingleProduct{
+	text-align: center;
+	font-size: 18px;
+	font-family: "AdobeClean-Regular","Myriad","Myriad Pro",arial;
+	color: #EFEFEF;
+	margin-top: 20px;
+	display: none;
+	margin-bottom: 10px;
+}
+
+.container1 .monthlySingleProduct{
+	text-align: center;
+	font-size: 18px;
+	font-family: "AdobeClean-Bold","Myriad","Myriad Pro",arial;
+	color: #EFEFEF;
+	margin-top: 20px;
+	display: none;
+	margin-bottom: 10px;
+}
+
+
+.container1 .full_border .radioImage{
+	width:18px;
+	height: 18px;
+	position:relative;
+	bottom:7px;
+}
+
+.container1 .full_border .discountedPercentage{
+	font-size: 14px;
+	font-family: "AdobeClean-Regular","Myriad","Myriad Pro",arial;
+	color: #2A99D0;
+	margin-left: 5px;
+}
+
+.container1 .full_border .yearlyAmount{
+	font-size: 14px;
+	font-family: "Helvetica-Cyrillic", "Helvetica", "Helvetica Neue", sans-serif;
+	text-decoration: none;
+	margin-top: 3px;
+	color: #C8C8C8;
+	width: 42px;	
+	text-align: right;
+	display: inline-flex;
+	direction: rtl;
+	padding-right: 12px;
+}
+
+.container1 .full_border .inlineDiv .productLabelStyle{
+	font-family: "Helvetica-Cyrillic", "Helvetica", "Helvetica Neue", sans-serif;
+}
+
+.container1 .full_border2 {
+	margin-top: 8px;
+	margin-right: 10px;
+	margin-left: 10px;
+  	border: 2px solid #393939;
+  	padding-top: 18px;	
+  	padding-bottom: 18px;
+  	padding-left: 5px;
+  	padding-right: 39px;
+  	border-style: none;
+  	border-radius: 5px;
+  	float: left;
+  	position: relative;
+  	width: 40%;
+  	  display: none;
+}
+
+.container1 .full_border2 .radioImage2{
+	width:18px;
+	height: 18px;
+	margin-top: 2px;
+}
+
+.container1 .full_border2 .inlineDiv .productLabelStyle{
+	font-family: "Helvetica-Cyrillic", "Helvetica", "Helvetica Neue", sans-serif;
+}
+
+.container1 .disclaimer{
+	color: #FFFFFF;
+	text-align: center;
+	margin-top: 6px;
+	font-size: 15px;
+	font-family: "AdobeClean-Regular","Myriad","Myriad Pro",arial;
+	display: block;
+	letter-spacing: 0.33px;
+}
+
+.productLabelStyle{
+	color: #C8C8C8;
+    font-size: 15px;
+    /*position: absolute;*/
+    margin-left: 5px;
+    font-family: "AdobeClean-Bold","Myriad","Myriad Pro",arial;
+    vertical-align: top;
+}
+
+
+.inlineDiv{
+	display: inline-block;
+}
+
+
+.button-container{
+margin-top: 10px;
+text-align: center;
+}
+
+.blue {
+background-color: #2A99D0;
+color: #FFFFFF;
+}
+
+.button {
+/*max-width: 200px;*/
+border-radius: 30px;
+font-family: "AdobeClean-Bold","Myriad","Myriad Pro",arial;
+font-size: 17px;
+border-bottom-width: inherit;
+border-top-width: inherit;
+border-right-width: inherit;
+border-left-width: inherit;
+width: 65%;
+height: 50px;
+padding: 10px;
+margin-top: 10px;
+}
+
+.container2{
+margin-left: 5px;
+margin-right: 5px;
+margin-bottom: 5px;
+margin-top: 5px;
+overflow-y: scroll;
+overflow-x: hidden;
+-webkit-overflow-scrolling: touch;
+}
+
+.container2 .paymentText{
+margin-top: 10px;
+font-family: "AdobeClean-Regular","Myriad","Myriad Pro",arial;
+font-size: 13px;
+color: #707070;
+line-height: 13px;
+}
+
+.container2 .footer{
+margin-top: 10px;
+font-family: "AdobeClean-Regular","Myriad","Myriad Pro",arial;
+font-size: 13px;
+color: #767676;
+text-align: center;
+/*margin-bottom: 5px;*/
+}
+
+.container2 .footer a.footerSize{
+font-size: 13px;
+color: #767676;
+text-decoration: underline;
+}
+
+.container .replaceEyesAnimation{
+	/* margin-left: 10px; */
+}
+
+.container .replaceEyesAnimation .top{
+	animation-name: fade;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+	animation-duration: 2s;
+	animation-direction: alternate;
+}
+
+.scrollGifContainer {
+	position: fixed;
+	width: 100%;
+	bottom: 110px;
+	text-align: center;
+	background: transparent;
+}
+
+.bottomIndicator {
+	width: 44px;
+	height: 40px;
+	opacity: 0.7;
+}
+
+#offerTerms {
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #ffffff;
+	font-size: 12px;
+	font-family: "adobe-clean";
+	text-decoration: underline;
+	padding: 10px 0px 8px 0px;
+}
+
+@keyframes fade {
+0% {
+opacity: 1;
+}
+25% {
+opacity: 1;
+}
+75% {
+opacity: 0;
+}
+100% {
+opacity: 0;
+}
+}
+
+
+/* Tablets landscape */
+@media only screen and (device-width:1024px) and (device-height:768px) and (orientation:landscape) {
+
+/*.mainIpadDiv{margin-top: 200px; margin-bottom: 200px; margin-left: 90px; margin-right: 90px;}*/
+.container .display_multiple_horizonal .card img.bannerSize {width: 120%;height: 120%;}
+.display_multiple_horizonal .card img.bannerSize2 {width: 200%;height: 200%;}
+.container .display_multiple_horizonal{width: 97%;}
+.container .selectiveEditing {width: 97%;}
+.productLabelStyle{font-size: 18px;}
+/*.container1 .yearlySingleProduct {font-size: 20px;}
+.container1 .monthlySingleProduct {font-size: 20px;}*/
+.container .header img.crossiconsize{width: 25px; height: 25px;}
+.container .header a.restorepurchase{font-size: 16px;}
+.container .editorThemesText{font-size: 22px;}
+.container .placeHolderText{font-size: 19px;}
+.container1 .full_border {width: 44%;}
+.container1 .full_border2 {width: 41%;}
+.container {height: 560px;}
+.button {width:65%;height:50px;border-radius: 45px;font-size: 20px;}
+.container2 .footer{font-size: 15px;}
+.container2 .footer a.footerSize{font-size: 15px;}
+.container .lastText{font-size: 16px;}
+.container .editorThemesText span.editorLabelStyle{padding-bottom: 6px; padding-top: 6px; font-size: 10px}
+.container1 .full_border .radioImage{width:24px;height: 24px;}
+.container1 .full_border2 .radioImage2{width:24px;height: 24px;}
+.container1 .disclaimer {font-size: 15px;}
+.container .discountBanner .discountBannerCopy .discountPercentageLabel{font-size: 85px;top: 30%;}
+.container .discountBanner .discountBannerCopyTopLabelDiv {top: 13.5%;}
+.container .discountBanner .discountBannerCopyTopLabelDiv .discountBannerCopyTopLabel{font-size: 18px;}
+.container .discountBanner .discountBannerCopy .discountBannerCopyBottomRect .discountBannerCopyBottomLabel{font-size: 22px;}
+.container .discountBanner .discountBannerCopy .discountBannerCopyBottomRect{width: 32%; left: 28%; margin :5px auto}
+}
+
+/* Tablets portrait */
+@media only screen and (device-width:768px) and (device-height:1024px) and (orientation:portrait) {
+
+.container .header img.crossiconsize{width: 30px; height: 30px;}
+.container .header a.restorepurchase{font-size: 13px;}
+.container .firstthreedays{font-size: 18px;}
+.container .editorThemesText{font-size: 20px;}
+.container .placeHolderText{font-size: 16px;}
+.container {height: 760px;}
+.button {width:75%;height:50px;border-radius: 45px;font-size: 20px;}
+.container2 .paymentText{margin-top: 10px; font-size: 16px;}
+.footer{font-size: 15px;}
+.footer a.footerSize{font-size: 15px;}
+.container .lastText{font-size: 16px;}
+.container .editorThemesText span.editorLabelStyle{padding-bottom: 6px; padding-top: 6px; font-size: 10px}
+.container1 .full_border .radioImage{width:24px;height: 24px;}
+.container1 .full_border2 .radioImage2{width:24px;height: 24px;}
+.container .discountBanner .discountBannerCopy .discountPercentageLabel{font-size: 65px;top: 24%;}
+.container .discountBanner .discountBannerCopyTopLabelDiv .discountBannerCopyTopLabel{font-size: 15px;}
+.container .discountBanner .discountBannerCopy .discountBannerCopyBottomRect .discountBannerCopyBottomLabel{font-size: 16px;}
+
+}
+
+@media only screen and (device-width:810px) and (device-height:1080px) and (orientation:portrait) {
+	.container .discountBanner .discountBannerCopy .discountPercentageLabel{font-size: 70px;top: 24%;}
+	.container .discountBanner .discountBannerCopyTopLabelDiv .discountBannerCopyTopLabel{font-size: 16px;}
+	.container .discountBanner .discountBannerCopy .discountBannerCopyBottomRect .discountBannerCopyBottomLabel{font-size: 18px;}
+	}
+	
+	@media only screen and (device-width:810px) and (device-height:1080px) and (orientation:landscape) {
+	.container .discountBanner .discountBannerCopy .discountPercentageLabel{font-size: 95px;top: 30%;}
+	.container .discountBanner .discountBannerCopyTopLabelDiv {top: 12.9%;}
+	.container .discountBanner .discountBannerCopyTopLabelDiv .discountBannerCopyTopLabel{font-size: 17px;}
+	.container .discountBanner .discountBannerCopy .discountBannerCopyBottomRect .discountBannerCopyBottomLabel{font-size: 22px;}
+	.container1 .full_border .inlineDiv .nextYearPrice{font-size: 16px;}
+	.productLabelStyle{font-size: 18px;}
+	.container1 .mostPopularLabel{font-size: 15px;}
+	.container1 .full_border .discountedPercentage {font-size: 16px;}
+	.container .discountBanner .discountBannerCopy .discountBannerCopyBottomRect{width: 40%; left: 30%;}
+	}
+	
+	@media only screen and (device-width:834px) and (device-height:1112px) and (orientation:portrait) {
+	.container .discountBanner .discountBannerCopy .discountPercentageLabel{font-size: 70px;top: 24%;}
+	.container .discountBanner .discountBannerCopyTopLabelDiv .discountBannerCopyTopLabel{font-size: 15px;}
+	.container .discountBanner .discountBannerCopy .discountBannerCopyBottomRect .discountBannerCopyBottomLabel{font-size: 20px;}
+	}
+	
+	@media only screen and (device-width:834px) and (device-height:1112px) and (orientation:landscape) {
+	.container .discountBanner .discountBannerCopy .discountPercentageLabel{font-size: 100px;top: 30%;}
+	.container .discountBanner .discountBannerCopyTopLabelDiv {top: 12.9%;}
+	.container .discountBanner .discountBannerCopyTopLabelDiv .discountBannerCopyTopLabel{font-size: 18px;}
+	.container .discountBanner .discountBannerCopy .discountBannerCopyBottomRect .discountBannerCopyBottomLabel{font-size: 23px;}
+	.container1 .full_border .inlineDiv .nextYearPrice{font-size: 16px;}
+	.productLabelStyle{font-size: 18px;}
+	.container1 .mostPopularLabel{font-size: 15px;}
+	.container1 .full_border .discountedPercentage {font-size: 16px;}
+	.container .discountBanner .discountBannerCopy .discountBannerCopyBottomRect{width: 40%; left: 30%;}
+	}
+	
+	@media only screen and (device-width:834px) and (device-height:1194px) and (orientation:portrait) {
+	.container .discountBanner .discountBannerCopy .discountPercentageLabel{font-size: 70px;top: 24%;}
+	.container .discountBanner .discountBannerCopyTopLabelDiv .discountBannerCopyTopLabel{font-size: 15px;}
+	.container .discountBanner .discountBannerCopy .discountBannerCopyBottomRect .discountBannerCopyBottomLabel{font-size: 20px;}		
+	}
+	
+	@media only screen and (device-width:834px) and (device-height:1194px) and (orientation:landscape){
+	.container .discountBanner .discountBannerCopy .discountPercentageLabel{font-size: 100px;top: 30%;}
+	.container .discountBanner .discountBannerCopyTopLabelDiv {top: 12.9%;}
+	.container .discountBanner .discountBannerCopyTopLabelDiv .discountBannerCopyTopLabel{font-size: 18px;}
+	.container .discountBanner .discountBannerCopy .discountBannerCopyBottomRect .discountBannerCopyBottomLabel{font-size: 23px;}
+	.container1 .full_border .inlineDiv .nextYearPrice{font-size: 16px;}
+	.productLabelStyle{font-size: 18px;}
+	.container1 .mostPopularLabel{font-size: 15px;}
+	.container1 .full_border .discountedPercentage {font-size: 16px;}
+	.container .discountBanner .discountBannerCopy .discountBannerCopyBottomRect{width: 40%; left: 30%;}
+	}
+
+/*ipad Pro Tablet Portrait*/
+@media only screen and (device-width:1024px) and (device-height:1366px) and (orientation:portrait) {
+	/*.mainIpadDiv{margin: 80px;}*/
+	.container {height: 960px;}
+	.container .header img.crossiconsize{width: 30px; height: 30px;}
+	.container .header a.restorepurchase{font-size: 14px; margin-right: 15px;}
+	.container .header2 img.appiconsize {width: 60px;height: 60px;}
+	.container .header2 b.premium {font-size: 28px;}
+	.container .editorThemesText{font-size: 19px; margin-left: 15px;}
+	.container .display_multiple_horizonal {margin-left: 15px;}
+	.container .selectiveEditing {margin-left: 15px;}
+	.container .editorThemesText span.editorLabelStyle {font-size: 13px;}
+	.container .placeHolderText{font-size: 16px; margin-left: 15px;}
+	.container1 .yearlySingleProduct {font-size: 24px;}
+	.container1 .monthlySingleProduct {font-size: 24px;}
+	.button {height: 60px; font-size: 24px; margin-top:20px;}
+	.container2 .footer {font-size: 14px}
+	.container2 .footer a.footerSize {font-size: 14px}
+	.productLabelStyle {font-size: 20px;}
+	.container1 .full_border{margin-top: 20px; width: 45%}
+	.container1 .full_border2{margin-top: 20px; width: 40%; padding-top: 22px; padding-bottom: 22px;}
+	.container1 .full_border .radioImage {width: 22px;height: 22px;}
+	.container1 .full_border2 .radioImage2 {width: 22px;height: 22px;}
+	.container1 .full_border .yearlyAmount {font-size: 18px;}
+	.container1 .full_border .discountedPercentage {font-size: 16px;}
+	.container1 .disclaimer {font-size: 16px;}
+	.container .discountBanner .discountBannerCopy .discountPercentageLabel{font-size: 90px;top: 27%;}
+	.container .discountBanner .discountBannerCopyTopLabelDiv {top: 13%; margin-top: 20px;}
+	.container .discountBanner .discountBannerCopy{margin-top: 30px;}
+	.container .discountBanner .discountBannerCopy .discountBannerCopyBottomRect{margin: 8px auto;}
+	#offerTerms{padding: 12px 0px 14px 0px;}
+	.container .discountBanner .discountBannerCopyTopLabelDiv .discountBannerCopyTopLabel{font-size: 20px;}
+	.container .discountBanner .discountBannerCopy .discountBannerCopyBottomRect .discountBannerCopyBottomLabel{font-size: 22px;}
+	
+}
+
+/*ipad Pro Tablet Landscape*/
+@media only screen and (device-width:1024px) and (device-height:1366px) and (orientation:landscape) {
+	/*.mainIpadDiv{margin-top: 80px; margin-bottom: 80px; margin-left: 120px; margin-right: 120px;}*/
+	.container {height: 600px;}
+	.container .display_multiple_horizonal{width: 97%;}
+	.container .selectiveEditing {width: 97%;}
+	.container .discountBanner .discountBannerCopy .discountPercentageLabel{font-size: 85px; top: 33%;}
+	.container .discountBanner .discountBannerCopyTopLabelDiv {top: 12.9%;}
+	.container .discountBanner .discountBannerCopyTopLabelDiv .discountBannerCopyTopLabel{font-size: 25px;}
+	.container .discountBanner .discountBannerCopy .discountBannerCopyBottomRect .discountBannerCopyBottomLabel{font-size: 28px;}
+	.container1 .full_border .discountedPercentage {font-size: 16px;}
+	.container .discountBanner .discountBannerCopy .discountBannerCopyBottomRect{width: 32%; left: 28%; margin :5px auto}
+	
+}
+
+
