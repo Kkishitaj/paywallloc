@@ -2844,47 +2844,47 @@ function isWidthOverflow(id){
 
 }
 
-function processTranslations(_translations) {
-	translations = _translations;
-	function localizeLabel(labelId) {
-		document.getElementById(labelId).innerHTML = translations[labelId];
-    }
-	var paywall_strings = ['premiumText', 'editorThemesAbout', 'selectiveEditingAbout', 'smootheningAbout', 'smileAbout', 'advancedSpotHealingAbout', 'replaceEyeAbout','grabcutMaskingAbout','layersIncompositionAbout',
- 						'collageThemesAbout', 'creativeCameraEditsAbout', 'infinteContentAbout', 'editorThemesText',
-						'selectiveEditingText', 'smootheningText', 'smileText', 'advancedSpotHealingText', 'replaceEyeText','grabcutMasking','layersIncompositionText', 'collageThemesText', 'creativeCameraEdits',
-						'infinteContentText', 'manyMoreText', 'terms', 'policy' ,'disclaimer'];							
-	for (var i = 0; i < paywall_strings.length; i++) {
-		localizeLabel(paywall_strings[i]);
-	}
+// function processTranslations(_translations) {
+// 	translations = _translations;
+// 	function localizeLabel(labelId) {
+// 		document.getElementById(labelId).innerHTML = translations[labelId];
+//     }
+// 	var paywall_strings = ['premiumText', 'editorThemesAbout', 'selectiveEditingAbout', 'smootheningAbout', 'smileAbout', 'advancedSpotHealingAbout', 'replaceEyeAbout','grabcutMaskingAbout','layersIncompositionAbout',
+//  						'collageThemesAbout', 'creativeCameraEditsAbout', 'infinteContentAbout', 'editorThemesText',
+// 						'selectiveEditingText', 'smootheningText', 'smileText', 'advancedSpotHealingText', 'replaceEyeText','grabcutMasking','layersIncompositionText', 'collageThemesText', 'creativeCameraEdits',
+// 						'infinteContentText', 'manyMoreText', 'terms', 'policy' ,'disclaimer'];							
+// 	for (var i = 0; i < paywall_strings.length; i++) {
+// 		localizeLabel(paywall_strings[i]);
+// 	}
 	
-	document.getElementById('editorText1').innerHTML = translations['EDIT'];
-	document.getElementById('editorText2').innerHTML = translations['EDIT'];
-	document.getElementById('editorText3').innerHTML = translations['EDIT'];
-	document.getElementById('editorText4').innerHTML = translations['EDIT'];
-	document.getElementById('collageText1').innerHTML = translations['COLLAGE'];
-	document.getElementById('composeText1').innerHTML = translations['COMPOSE'];
-	document.getElementById('composeText2').innerHTML = translations['COMPOSE'];
-	document.getElementById('captureText').innerHTML = translations['CAPTURE'];
-	document.getElementById('smootheningText2').innerHTML = translations['FIX'];
-	document.getElementById('smileText2').innerHTML = translations['FIX'];
-	document.getElementById('restore').innerHTML = translations['Restore Purchases'];
-	document.getElementById('discountBannerCopyTopLabel').innerHTML = translations['heading1'];
-	document.getElementById('discountBannerCopyBottomLabel').innerHTML = translations['discountFirstYear'];
-	document.getElementById('offerTerms').innerHTML = translations['offerTerms'];
+// 	document.getElementById('editorText1').innerHTML = translations['EDIT'];
+// 	document.getElementById('editorText2').innerHTML = translations['EDIT'];
+// 	document.getElementById('editorText3').innerHTML = translations['EDIT'];
+// 	document.getElementById('editorText4').innerHTML = translations['EDIT'];
+// 	document.getElementById('collageText1').innerHTML = translations['COLLAGE'];
+// 	document.getElementById('composeText1').innerHTML = translations['COMPOSE'];
+// 	document.getElementById('composeText2').innerHTML = translations['COMPOSE'];
+// 	document.getElementById('captureText').innerHTML = translations['CAPTURE'];
+// 	document.getElementById('smootheningText2').innerHTML = translations['FIX'];
+// 	document.getElementById('smileText2').innerHTML = translations['FIX'];
+// 	document.getElementById('restore').innerHTML = translations['Restore Purchases'];
+// 	document.getElementById('discountBannerCopyTopLabel').innerHTML = translations['heading1'];
+// 	document.getElementById('discountBannerCopyBottomLabel').innerHTML = translations['discountFirstYear'];
+// 	document.getElementById('offerTerms').innerHTML = translations['offerTerms'];
 	
-	const observer = lozad();
-	observer.observe();
+// 	const observer = lozad();
+// 	observer.observe();
 
-	const pictureObserver = lozad('.lozad-picture', {
-    	threshold: 0.1
-    })
+// 	const pictureObserver = lozad('.lozad-picture', {
+//     	threshold: 0.1
+//     })
 
-    pictureObserver.observe();
-	promiseTranslationResolve();
-	if(isWidthOverflow("layersIncompositionTextDiv")){
-		handleWidthOverflow("composeText2");
-	}
-}
+//     pictureObserver.observe();
+// 	promiseTranslationResolve();
+// 	if(isWidthOverflow("layersIncompositionTextDiv")){
+// 		handleWidthOverflow("composeText2");
+// 	}
+// }
 
 function showPremiumFeatures(featureList) {
 	
